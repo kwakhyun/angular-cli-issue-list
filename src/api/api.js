@@ -11,7 +11,7 @@ api.interceptors.request.use((config) => {
 });
 
 export const getIssueList = async (page) => {
-  const { data } = await api.get(`issues?state=open&sort=comments&direction=desc&per_page=10&page=${page}`);
+  const { data } = await api.get(`issues?state=open&sort=comments&direction=desc&per_page=20&page=${page}`);
   return data;
 };
 
