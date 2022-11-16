@@ -4,13 +4,20 @@
 Angular CLI 이슈 리스트 프로젝트입니다.
 - [개인 프로젝트 배포 링크](https://angular-cli-issue-list-delta.vercel.app/)
 - [팀 프로젝트(Best Practice) 저장소](https://github.com/preonboarding-FE-6team/week1-2)
-<br>
 
-### 프로젝트 주요 기능
+### 주요 기능
 - 이슈 목록 및 상세 화면
 - 데이터 요청 중 로딩 표시
 - 이슈 목록에 광고 배너 표시
 - Intersection Observer API를 이용한 무한 스크롤
+
+### 요구 사항
+- 이슈 목록 및 상세 화면 기능 구현
+- Context API를 활용한 API 연동
+- 데이터 요청 중 로딩 표시
+- 에러 화면 구현
+- 지정된 조건(open 상태, 코멘트 많은 순)에 맞게 데이터 요청 및 표시
+- 반응형 웹 구현(UI는 데스크톱, 모바일에서 보았을 때 모두 읽기 편하게 구현)
 <br>
 
 ### Issue list
